@@ -13,5 +13,7 @@ public class Produto_teste {
 		p2.desconto = 0.29;
 		
 		System.out.println(p1.nome);
+		double precofinal = p1.preco *(1 - p1.desconto);
+		System.out.println(precofinal);
 	}
 }
