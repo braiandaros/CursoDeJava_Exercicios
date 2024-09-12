@@ -2,10 +2,10 @@ package Classe;
 
 public class Produto_teste {
 	public static void main(String[] args) {
-		Produto p1 = new Produto();
-		p1.nome = "notbook";
-		p1.preco = 4356.89;
-		p1.desconto = 0.25;
+		Produto p1 = new Produto("nootebok", 4356.89, 0.25);
+		//p1.nome = "notbook";
+		//p1.preco = 4356.89;
+		//p1.desconto = 0.25;
 		
 		var p2 = new Produto();
 		p2.nome = "caneta preta";
@@ -13,6 +13,7 @@ public class Produto_teste {
 		p2.desconto = 0.29;
 		
 		System.out.println(p1.nome);
+		System.out.println(p2.nome);
 		double precofinal1 = p1.precoComDesconto(10);
 		double precofinal2 = p2.precoComDesconto();
 		double mediacarrinho = ((precofinal1 + precofinal2)/2);
