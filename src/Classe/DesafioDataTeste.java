@@ -12,7 +12,11 @@ public class DesafioDataTeste {
 		d2.mes = 10;
 		d2.ano = 2075;
 		
-		System.out.println(d1.dia);
-		System.out.println(d2);
+		System.out.println(d1.dia + "/" + d1.mes + "/" + d1.ano);
+		System.out.println(d2.dia + "/" + d2.mes + "/" + d2.ano);
+		
+		System.out.println(d1.obterDataFormatada());
+		System.out.println(d2.obterDataFormatada());
+
 	}
 }
