@@ -7,7 +7,7 @@ public class DesafioDataTeste {
 		d1.mes = 01;
 		d1.ano = 2005;
 		
-		DesafioData d2 = new DesafioData(20, 10, 2075);
+		DesafioData d2 = new DesafioData(31, 12, 2020);
 		
 		DesafioData d3 = new DesafioData();
 
