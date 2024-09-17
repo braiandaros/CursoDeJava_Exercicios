@@ -23,7 +23,7 @@ public class Fila {
 		System.out.println(fila.poll());
 		System.out.println(fila.poll());
 		System.out.println(fila.poll());
-		System.out.println(fila.poll());
-		System.out.println(fila.remove());
+		System.out.println(fila.poll());//se tiver vazia retorna null
+		System.out.println(fila.remove());//retorna erro se vazia
 	}
 }
