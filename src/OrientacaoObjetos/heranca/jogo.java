@@ -7,11 +7,21 @@ public class jogo {
 		J1.x = 10;
 		J1.y = 10;
 		
-		J1.andar(Direcao.NORTE);
-		J1.andar(Direcao.LESTE);
-		J1.andar(Direcao.NORTE);
-		J1.andar(Direcao.LESTE);
+		Heroi J2 = new Heroi();
+		J2.x = 10;
+		J2.y = 11;
 		
-		System.out.println("y = " + J1.y + " x = " + J1.x);
+		System.out.println(J1.vida);
+		System.out.println(J2.vida);
+		
+		J1.atacar(J2);
+		
+		System.out.println(J1.vida);
+		System.out.println(J2.vida);
+		
+		J2.atacar(J1);
+		
+		System.out.println(J1.vida);
+		System.out.println(J2.vida);
 	}
 }
