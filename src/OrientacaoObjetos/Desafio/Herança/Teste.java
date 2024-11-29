@@ -9,5 +9,10 @@ public class Teste {
 		System.out.println(c1);
 		c1.acelerar();
 		System.out.println(c1);
+		
+		Ferrari c2 = new Ferrari();
+		c2.acelerar();
+		c2.frear();
+		System.out.println(c2);
 		}
 }
