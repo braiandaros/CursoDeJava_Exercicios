@@ -2,6 +2,12 @@ package OrientacaoObjetos.Desafio.Herança;
 
 public class Teste {
 	public static void main(String[] args) {
-		Carro c = new Civic();
-	}
+		Carro c1 = new Civic();
+		c1.acelerar();
+		System.out.println(c1);
+		c1.acelerar();
+		System.out.println(c1);
+		c1.acelerar();
+		System.out.println(c1);
+		}
 }
