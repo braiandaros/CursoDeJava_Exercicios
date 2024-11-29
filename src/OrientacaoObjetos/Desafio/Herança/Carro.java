@@ -2,14 +2,25 @@ package OrientacaoObjetos.Desafio.Herança;
 
 public class Carro {
 	int velocidadeAtual;
+	final int VELOCIDADEMAXIMA;
+	int delta = 5;
+	
+	Carro(int velocidademaxima){
+		VELOCIDADEMAXIMA = velocidademaxima;
+	}
 	
 	void acelerar() {
-		velocidadeAtual += 5;
+		if(velocidadeAtual + delta > VELOCIDADEMAXIMA) {
+			velocidadeAtual = VELOCIDADEMAXIMA;
+		}else{
+			velocidadeAtual += delta;
+		}
+		
 	};
 	
 	void frear() {
-		if (velocidadeAtual >= 5) {
-			velocidadeAtual -= 5;
+		if (velocidadeAtual >= delta) {
+			velocidadeAtual -= delta;
 		}
 		else {
 			velocidadeAtual = 0;
