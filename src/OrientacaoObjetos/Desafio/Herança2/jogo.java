@@ -1,4 +1,9 @@
-package OrientacaoObjetos.heranca;
+package OrientacaoObjetos.Desafio.Herança2;
+
+import OrientacaoObjetos.heranca.Direcao;
+import OrientacaoObjetos.heranca.Heroi;
+import OrientacaoObjetos.heranca.Jogador;
+import OrientacaoObjetos.heranca.Monstro;
 
 public class jogo {
 	public static void main(String[] args) {

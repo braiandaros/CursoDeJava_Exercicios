@@ -1,4 +1,8 @@
-package OrientacaoObjetos.Desafio.Herança;
+package OrientacaoObjetos.Desafio.Herança2;
+
+import OrientacaoObjetos.Desafio.Herança.Carro;
+import OrientacaoObjetos.Desafio.Herança.Civic;
+import OrientacaoObjetos.Desafio.Herança.Ferrari;
 
 public class Teste {
 	public static void main(String[] args) {
