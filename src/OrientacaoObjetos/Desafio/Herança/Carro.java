@@ -3,24 +3,24 @@ package OrientacaoObjetos.Desafio.Herança;
 public class Carro {
 	int velocidadeAtual;
 	final int VELOCIDADEMAXIMA;
-	int delta = 5;
+	private int delta = 5;
 	
 	protected Carro(int velocidademaxima){
 		VELOCIDADEMAXIMA = velocidademaxima;
 	}
 	
 	public void acelerar() {
-		if(velocidadeAtual + delta > VELOCIDADEMAXIMA) {
+		if(velocidadeAtual + getDelta() > VELOCIDADEMAXIMA) {
 			velocidadeAtual = VELOCIDADEMAXIMA;
 		}else{
-			velocidadeAtual += delta;
+			velocidadeAtual += getDelta();
 		}
 		
 	};
 	
 	public void frear() {
-		if (velocidadeAtual >= delta) {
-			velocidadeAtual -= delta;
+		if (velocidadeAtual >= 5) {
+			velocidadeAtual -= 5;
 		}
 		else {
 			velocidadeAtual = 0;
@@ -29,5 +29,13 @@ public class Carro {
 	}
 	public String toString() {
 		return "velocidade atual é " + velocidadeAtual;
+	}
+
+	public int getDelta() {
+		return delta;
+	}
+
+	public void setDelta(int delta) {
+		this.delta = delta;
 	}
 }
