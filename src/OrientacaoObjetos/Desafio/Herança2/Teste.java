@@ -18,6 +18,7 @@ public class Teste {
 		c2.ligarTurbo();
 		c2.ligarAr();
 		c2.desligarAr();
+		System.out.println(c2.velocidadeDoAr());
 		
 		c2.acelerar();
 		c2.frear();
