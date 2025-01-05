@@ -26,5 +26,7 @@ public class DesafioArrays {
 		float media = (float) (total / quantidade);
 		System.out.println(media);
 		entrada.close();
+		
+
 	}
 }
