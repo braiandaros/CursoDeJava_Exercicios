@@ -6,7 +6,6 @@ public class CalculoTeste1 {
 		System.out.println(calculo.executar(2, 3));
 		
 		calculo = new Multiplicar();
-		System.out.println(calculo.executar(2, 3));
-		
+		System.out.println(calculo.executar(2, 3));		
 	}
 }

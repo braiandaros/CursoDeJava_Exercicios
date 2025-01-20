@@ -24,10 +24,10 @@ public class Foreach {
 		aprovados.forEach(nome -> meuImprimir(nome));
 		
 		
-		System.out.println("\nMethod reference 2");
+		System.out.println("\nMethod reference");
 		aprovados.forEach(Foreach::meuImprimir);
 	}	
 	static void meuImprimir(String nome) {
 		System.out.println("oi, meu nome é " + nome);
 	}
-}
+}	

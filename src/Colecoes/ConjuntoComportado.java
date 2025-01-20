@@ -2,7 +2,6 @@ package Colecoes;
 
 import java.util.HashSet;
 import java.util.Set;
-import java.util.TreeSet;
 
 public class ConjuntoComportado {
 	public static void main(String[] args) {
